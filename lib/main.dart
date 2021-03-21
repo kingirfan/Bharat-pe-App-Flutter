@@ -36,8 +36,8 @@ class _SplashScreenState extends State<SplashScreen> {
     return Timer(_duration, navigationPage);
   }
 
-  void navigationPage() {
-    Navigator.pushReplacement(context,
+  void navigationPage() async{
+    await Navigator.pushReplacement(context,
         MaterialPageRoute(builder: (BuildContext context) => GetPhoneNumber()));
   }
 

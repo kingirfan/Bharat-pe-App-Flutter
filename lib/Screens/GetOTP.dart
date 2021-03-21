@@ -29,7 +29,7 @@ class _GetOTPState extends State<GetOTP> {
 
   @override
   void initState() {
-    startTimeout();
+    // startTimeout();
     super.initState();
     currentSeconds = 0;
   }
